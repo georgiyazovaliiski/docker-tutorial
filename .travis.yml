@@ -7,3 +7,15 @@ before_install:
 
 script:
   - docker run yazovaliyski/docker-tut npm run test -- --coverage
+
+deploy:
+  provider: # GCP
+  region: # GCP region
+  app: # whatever app name
+  env: "Docker-env"
+  bucket_name: #
+  bucket_path: # whatever app name
+  on:
+    branch: master
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
