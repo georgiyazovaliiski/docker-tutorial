@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit   bka  <code>src/App.js</code> and save to reload.
+          Edit   on FEATURE BRANCH  <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
